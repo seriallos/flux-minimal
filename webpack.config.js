@@ -5,8 +5,8 @@ module.exports = {
   output: {
     path: './dist/',
     filename: '[name].js',
-    library: 'fluxMinimal',
-    libraryTarget: 'umd'
+    library: 'flux-minimal',
+    libraryTarget: 'commonjs'
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
