@@ -4,8 +4,12 @@ module.exports = {
   },
   output: {
     path: './dist/',
-    publicPath: './',
-    filename: '[name].js'
+    filename: '[name].js',
+    library: 'fluxMinimal',
+    libraryTarget: 'umd'
+  },
+  resolve: {
+    extensions: ['', '.js', '.jsx']
   },
   module: {
     loaders: [
@@ -15,6 +19,10 @@ module.exports = {
         loader: 'babel-loader'
       }
     ]
+  },
+  externals: {
+    'react': {
+      commonjs: 'react'
+    }
   }
-
 }
