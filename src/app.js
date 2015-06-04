@@ -1,11 +1,6 @@
-import React from 'react';
 
-class TestComponent extends React.Component {
-  render() {
-    return (
-      <div>Hello world!</div>
-    );
-  }
+let init = function(elementId) {
+  console.log('hello');
 }
 
-export default TestComponent;
+export default init;
