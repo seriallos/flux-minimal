@@ -2,7 +2,7 @@
   "name": "flux-minimal",
   "version": "0.0.1",
   "description": "Minimal project for React/Flummox/ES6",
-  "main": "index.js",
+  "main": "dist/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
