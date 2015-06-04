@@ -6,7 +6,7 @@ module.exports = {
     path: './dist/',
     filename: '[name].js',
     library: 'flux-minimal',
-    libraryTarget: 'commonjs'
+    libraryTarget: 'commonjs2'
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
@@ -22,7 +22,7 @@ module.exports = {
   },
   externals: {
     'react': {
-      commonjs: 'react'
+      commonjs2: 'react'
     }
   }
 }
