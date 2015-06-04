@@ -1,6 +1,6 @@
 
 let init = function(elementId) {
-  console.log('hello');
+  console.log(`Hello, ${elementId}`);
 }
 
 export default init;
