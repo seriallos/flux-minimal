@@ -1,3 +1,9 @@
-let target = 'world';
+import React from 'react';
 
-console.log(`Hello, ${target}!`);
+class TestComponent extends React.Component {
+  render() {
+    return (
+      <div>Hello world!</div>
+    );
+  }
+}
