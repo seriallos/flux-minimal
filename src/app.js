@@ -1,6 +1,15 @@
+import React from 'react';
+
+class Hello extends React.Component {
+  render() {
+    return (
+      <div>Hello!</div>
+    );
+  }
+}
 
 let init = function(elementId) {
-  console.log(`Hello, ${elementId}`);
+  React.render(<Hello />, document.getElementById(elementId));
 }
 
 export default init;
