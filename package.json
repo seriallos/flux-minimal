@@ -1,0 +1,26 @@
+{
+  "name": "flux-minimal",
+  "version": "0.0.1",
+  "description": "Minimal project for React/Flummox/ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seriallos/flux-minimal.git"
+  },
+  "author": "Dave Hendler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seriallos/flux-minimal/issues"
+  },
+  "homepage": "https://github.com/seriallos/flux-minimal",
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "flummox": "^3.5.2",
+    "node-libs-browser": "^0.5.2",
+    "react": "^0.13.3",
+    "webpack": "^1.9.10"
+  }
+}
